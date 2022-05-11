@@ -8,7 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   //Ajout de tout ce qui précède le CONSTRUCTOR :
   public appPages = [
-    { title: 'Home', url: '/folder/Home', icon: 'home' },
+    // { title: 'Home', url: '/folder/Home', icon: 'home' },
+    // Remplacé par Page d'Accueil New :
+    { title: 'Home', url: '/tabs/tab1', icon: 'home' },
     { title: 'Inbox', url: '/folder/Inbox', icon: 'mail' },
     { title: 'Outbox', url: '/folder/Outbox', icon: 'paper-plane' },
     { title: 'Favorites', url: '/folder/Favorites', icon: 'heart' },
