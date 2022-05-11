@@ -2,7 +2,14 @@
   <!-- Suppression ion-router-outlet -->
   <!-- <ion-router-outlet></ion-router-outlet> -->
   <ion-split-pane contentId="main-content">
+    <!-- Possibilité de rajouter dans ION-MENU un paramètre side="end" pour avoir un menu à DROITE -->
     <ion-menu contentId="main-content" type="overlay">
+      <!-- Ajout de ION-HEADER avant ION-CONTENT pour avoir un HEADER. Code trouvé sur : https://ionicframework.com/docs/api/menu -->
+      <ion-header>
+        <ion-toolbar color="secondary">
+          <ion-title>Side Menu</ion-title>
+        </ion-toolbar>
+      </ion-header>
       <ion-content>
         <ion-list id="inbox-list">
           <ion-list-header>Inbox</ion-list-header>
